@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCEC3BAA1D0231480050E4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC3BA91D0231480050E4EB /* AppDelegate.swift */; };
+		FCEC3BAC1D0231480050E4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEC3BAB1D0231480050E4EB /* Assets.xcassets */; };
+		FCEC3BAF1D0231480050E4EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEC3BAD1D0231480050E4EB /* MainMenu.xib */; };
+		FCEC3BBA1D0231480050E4EB /* tinrooftime_menubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC3BB91D0231480050E4EB /* tinrooftime_menubarTests.swift */; };
+		FCEC3BC51D0231480050E4EB /* tinrooftime_menubarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC3BC41D0231480050E4EB /* tinrooftime_menubarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEC3BB61D0231480050E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEC3B9E1D0231480050E4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEC3BA51D0231480050E4EB;
+			remoteInfo = "tinrooftime-menubar";
+		};
+		FCEC3BC11D0231480050E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEC3B9E1D0231480050E4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEC3BA51D0231480050E4EB;
+			remoteInfo = "tinrooftime-menubar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCEC3BA61D0231480050E4EB /* tinrooftime-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinrooftime-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC3BA91D0231480050E4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCEC3BAB1D0231480050E4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCEC3BAE1D0231480050E4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FCEC3BB01D0231480050E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEC3BB51D0231480050E4EB /* tinrooftime-menubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinrooftime-menubarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC3BB91D0231480050E4EB /* tinrooftime_menubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinrooftime_menubarTests.swift; sourceTree = "<group>"; };
+		FCEC3BBB1D0231480050E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEC3BC01D0231480050E4EB /* tinrooftime-menubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tinrooftime-menubarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC3BC41D0231480050E4EB /* tinrooftime_menubarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinrooftime_menubarUITests.swift; sourceTree = "<group>"; };
+		FCEC3BC61D0231480050E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEC3BA31D0231480050E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BB21D0231480050E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BBD1D0231480050E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEC3B9D1D0231480050E4EB = {
+			isa = PBXGroup;
+			children = (
+				FCEC3BA81D0231480050E4EB /* tinrooftime-menubar */,
+				FCEC3BB81D0231480050E4EB /* tinrooftime-menubarTests */,
+				FCEC3BC31D0231480050E4EB /* tinrooftime-menubarUITests */,
+				FCEC3BA71D0231480050E4EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEC3BA71D0231480050E4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC3BA61D0231480050E4EB /* tinrooftime-menubar.app */,
+				FCEC3BB51D0231480050E4EB /* tinrooftime-menubarTests.xctest */,
+				FCEC3BC01D0231480050E4EB /* tinrooftime-menubarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEC3BA81D0231480050E4EB /* tinrooftime-menubar */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC3BA91D0231480050E4EB /* AppDelegate.swift */,
+				FCEC3BAB1D0231480050E4EB /* Assets.xcassets */,
+				FCEC3BAD1D0231480050E4EB /* MainMenu.xib */,
+				FCEC3BB01D0231480050E4EB /* Info.plist */,
+			);
+			path = "tinrooftime-menubar";
+			sourceTree = "<group>";
+		};
+		FCEC3BB81D0231480050E4EB /* tinrooftime-menubarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC3BB91D0231480050E4EB /* tinrooftime_menubarTests.swift */,
+				FCEC3BBB1D0231480050E4EB /* Info.plist */,
+			);
+			path = "tinrooftime-menubarTests";
+			sourceTree = "<group>";
+		};
+		FCEC3BC31D0231480050E4EB /* tinrooftime-menubarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC3BC41D0231480050E4EB /* tinrooftime_menubarUITests.swift */,
+				FCEC3BC61D0231480050E4EB /* Info.plist */,
+			);
+			path = "tinrooftime-menubarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEC3BA51D0231480050E4EB /* tinrooftime-menubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEC3BC91D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubar" */;
+			buildPhases = (
+				FCEC3BA21D0231480050E4EB /* Sources */,
+				FCEC3BA31D0231480050E4EB /* Frameworks */,
+				FCEC3BA41D0231480050E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tinrooftime-menubar";
+			productName = "tinrooftime-menubar";
+			productReference = FCEC3BA61D0231480050E4EB /* tinrooftime-menubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCEC3BB41D0231480050E4EB /* tinrooftime-menubarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEC3BCC1D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubarTests" */;
+			buildPhases = (
+				FCEC3BB11D0231480050E4EB /* Sources */,
+				FCEC3BB21D0231480050E4EB /* Frameworks */,
+				FCEC3BB31D0231480050E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEC3BB71D0231480050E4EB /* PBXTargetDependency */,
+			);
+			name = "tinrooftime-menubarTests";
+			productName = "tinrooftime-menubarTests";
+			productReference = FCEC3BB51D0231480050E4EB /* tinrooftime-menubarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCEC3BBF1D0231480050E4EB /* tinrooftime-menubarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEC3BCF1D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubarUITests" */;
+			buildPhases = (
+				FCEC3BBC1D0231480050E4EB /* Sources */,
+				FCEC3BBD1D0231480050E4EB /* Frameworks */,
+				FCEC3BBE1D0231480050E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEC3BC21D0231480050E4EB /* PBXTargetDependency */,
+			);
+			name = "tinrooftime-menubarUITests";
+			productName = "tinrooftime-menubarUITests";
+			productReference = FCEC3BC01D0231480050E4EB /* tinrooftime-menubarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEC3B9E1D0231480050E4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Klint Thrasher";
+				TargetAttributes = {
+					FCEC3BA51D0231480050E4EB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FCEC3BB41D0231480050E4EB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCEC3BA51D0231480050E4EB;
+					};
+					FCEC3BBF1D0231480050E4EB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FCEC3BA51D0231480050E4EB;
+					};
+				};
+			};
+			buildConfigurationList = FCEC3BA11D0231480050E4EB /* Build configuration list for PBXProject "tinrooftime-menubar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCEC3B9D1D0231480050E4EB;
+			productRefGroup = FCEC3BA71D0231480050E4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEC3BA51D0231480050E4EB /* tinrooftime-menubar */,
+				FCEC3BB41D0231480050E4EB /* tinrooftime-menubarTests */,
+				FCEC3BBF1D0231480050E4EB /* tinrooftime-menubarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEC3BA41D0231480050E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEC3BAC1D0231480050E4EB /* Assets.xcassets in Resources */,
+				FCEC3BAF1D0231480050E4EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BB31D0231480050E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BBE1D0231480050E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEC3BA21D0231480050E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEC3BAA1D0231480050E4EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BB11D0231480050E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEC3BBA1D0231480050E4EB /* tinrooftime_menubarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEC3BBC1D0231480050E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEC3BC51D0231480050E4EB /* tinrooftime_menubarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEC3BB71D0231480050E4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEC3BA51D0231480050E4EB /* tinrooftime-menubar */;
+			targetProxy = FCEC3BB61D0231480050E4EB /* PBXContainerItemProxy */;
+		};
+		FCEC3BC21D0231480050E4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEC3BA51D0231480050E4EB /* tinrooftime-menubar */;
+			targetProxy = FCEC3BC11D0231480050E4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCEC3BAD1D0231480050E4EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEC3BAE1D0231480050E4EB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCEC3BC71D0231480050E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCEC3BC81D0231480050E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCEC3BCA1D0231480050E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCEC3BCB1D0231480050E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCEC3BCD1D0231480050E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinrooftime-menubar.app/Contents/MacOS/tinrooftime-menubar";
+			};
+			name = Debug;
+		};
+		FCEC3BCE1D0231480050E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tinrooftime-menubar.app/Contents/MacOS/tinrooftime-menubar";
+			};
+			name = Release;
+		};
+		FCEC3BD01D0231480050E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tinrooftime-menubar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCEC3BD11D0231480050E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tinrooftime-menubarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinroofsoftware.tinrooftime-menubarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tinrooftime-menubar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEC3BA11D0231480050E4EB /* Build configuration list for PBXProject "tinrooftime-menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEC3BC71D0231480050E4EB /* Debug */,
+				FCEC3BC81D0231480050E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEC3BC91D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEC3BCA1D0231480050E4EB /* Debug */,
+				FCEC3BCB1D0231480050E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCEC3BCC1D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEC3BCD1D0231480050E4EB /* Debug */,
+				FCEC3BCE1D0231480050E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCEC3BCF1D0231480050E4EB /* Build configuration list for PBXNativeTarget "tinrooftime-menubarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEC3BD01D0231480050E4EB /* Debug */,
+				FCEC3BD11D0231480050E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEC3B9E1D0231480050E4EB /* Project object */;
+}
